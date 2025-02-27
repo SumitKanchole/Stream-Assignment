@@ -49,7 +49,7 @@ public class S4 {
 		l.add(new Product(103,"www",8500));
 		l.add(new Product(104,"rrr",6900));
 	
-        System.out.println("Products who have a salary greater than 50000 >>> ");
+        System.out.println("increase the price of each product by 15% >>> ");
 
         Function <Product,Product> f = x->{
                 double increment = (x.getPrice()*15)/100; 
